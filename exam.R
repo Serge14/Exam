@@ -45,7 +45,7 @@ for (i in 1:NoStudents) {
     for (l in 1:NoGroups) {
         k = 1
         examcards = paste(unique(exam$Group)[l], "\n") # Form question group title
-        choice = sample(exam$Questions[exam$Group==unique(exam$Group)[l]], group[l])                     # Questions for student i
+        choice = sample(exam$Questions[exam$Group==unique(exam$Group)[l]], group[l]) # Questions for student i
     
     for (j in 1:group[l]){
         examcards = paste0(examcards, k, ". ", choice[j], "\n") # Form questions for group
