@@ -30,7 +30,7 @@ No | Question  |  Group
 
 __Step 2__
 
-Run the application. It will ask for number of students that are expected to take exam and for number of questions to be included in each group of questions. Be careful, number of questions in each group cannot be more than number of questions for selected group in list of questions. However application will check this.
+Run the application. It will ask for number of students that are expected to take exam and for number of questions to be included in each group of questions. Be careful, number of questions in each group cannot be more than number of questions for selected group in the list of questions. However application will check this.
 
 __Step 3__
 
