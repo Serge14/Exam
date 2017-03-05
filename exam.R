@@ -22,19 +22,6 @@ readinteger = function(msg) {
 # Step 1: Define number of students
 NoStudents = readinteger("Enter number students who are expected to take exam: ")
 
-# Step 2: Define number of groups in variant
-for (i in 1:NoGroups) {
-    group[i] = readinteger(paste0("Enter number of questions for group ",
-                                  unique(exam$Group)[i],": "))
-    
-    #Check if there are enough questions in the group to prepare examcards
-    while (group[i] > length(exam$Group[exam$Group == unique(exam$Group)[i]])) {
-        print(paste0("Wrong number of questions, you can enter not more than ",
-                     length(exam$Group[exam$Group == unique(exam$Group)[i]])))
-        group[i] = readinteger(paste0("Enter number of questions for group ",
-                                      unique(exam$Group)[i],": "))
-    }
-}
 
 #Step 3: Define questions for each student
 for (i in 1:NoStudents) {
