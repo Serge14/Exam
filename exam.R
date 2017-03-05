@@ -1,4 +1,3 @@
-setwd("/home/sergiy/Documents/Work/Exam")
 exam = read.csv("questionlist.csv")
 
 # Check number of question groups, 
