@@ -25,7 +25,7 @@ NoStudents = readinteger("Enter number students who are expected to take exam: "
 #Step 3: Define questions for each student
 for (i in 1:NoStudents) {
     examcards = "-----------------------------"
-    examcards=paste0(examcards, "\n", "\n", "Білет №", i, "\n")    # Head of exam card
+    examcards=paste0(examcards, "\n", "\n", "№", i, "\n")    # Head of exam card
     write(examcards, "examcards.txt", append = TRUE)
     
     for (l in 1:NoGroups) {
