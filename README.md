@@ -2,19 +2,19 @@
 ### Application for generating unique exam cards
 ###
 
-####Who may be interested
+#### Who may be interested
 
 Teachers who want to make unique exam question cards and tired from the process of making them manually.
 
 ###
 
-####Requirements
+#### Requirements
 
 You need R to be installed on your computer.
 
 ###
 
-####How to work with application
+#### How to work with application
 
 __Step 1__
 
