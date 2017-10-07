@@ -18,7 +18,7 @@ You need R to be installed on your computer.
 
 __Step 1__
 
-To prepare unique exam cards it is necessary to form a question list first. Questions may be divided by topics, complexity, type etc. Question list needs to be saved in csv file with following columns: 
+To prepare unique exam cards it is necessary to form a question list first. Questions may be divided by topics, complexity, type etc. Question list needs to be saved in csv file named "questionlist.csv"" with following columns: 
 
 * _No_ - question number
 * _Question_ - questions for exam
