@@ -22,7 +22,6 @@ readinteger = function(msg) {
 NoStudents = readinteger("Enter number students who are expected to take exam: ")
 
 # Step 2: Define number of questions in groups
-
 for (i in 1:NoGroups) {
 group[i] = readinteger(paste0("Enter number questions for group \"", 
                               unique(exam$Group)[i], "\": "))
