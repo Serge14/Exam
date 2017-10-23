@@ -53,4 +53,3 @@ for (i in 1:NoStudents) {
     }
     write(examcards, "examcards.txt", append = TRUE)      # Write group questions into file
     } }
-

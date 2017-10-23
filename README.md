@@ -21,12 +21,12 @@ __Step 1__
 To prepare unique exam cards it is necessary to form a question list first. Questions may be divided by topics, complexity, type etc. File must contain following columns: 
 
 * _No_ - question number
-* _Question_ - questions for exam
+* _Questions_ - questions for exam
 * _Group_ - question type, complexity, topic etc.
 
 Here is an example:
 
-No | Question  |  Group
+No | Questions |  Group
 ---|-----------|--------
 1  | Question1 |  Group1
 2  | Question2 |  Group1
