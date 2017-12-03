@@ -1,5 +1,7 @@
 exam = read.csv("questionlist.csv")
 
+# Column names should be No, Questions & Group
+
 # Check number of question groups, 
 # assign zeros to vector that keeps data on number of questions in each group
 NoGroups = length(unique(exam$Group))
