@@ -53,5 +53,5 @@ for (i in 1:NoStudents) {
         examcards = paste0(examcards, k, ". ", choice[j], "\n") # Form questions for group
         k = k+1
     }
-    write(examcards, "examcards.txt", append = TRUE)      # Write group questions into file
+    write(examcards, "examcards.txt", append = TRUE)      # Write a group of questions into file
     } }
